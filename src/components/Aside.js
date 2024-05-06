@@ -1,41 +1,28 @@
 import React from 'react';
 
+const blogStyle = {
+    width: '30%',
+    height: 'auto',
+    margin: '0',
+    float: 'left'
+};
 
 const Aside = ({ Routers }) => {
     return (
         <div class="container">
-            <div className='testimonials'>
-                <div className="col-md-3">
-                    <div className="card">
-                        <div className="card-body">
-                                <h5 className="card-title">TESTIMONIOS 1</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-body">
-                                <h5 className="card-title">TESTIMONIOS 2</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>                
-                    <div className="card">
-                        <div className="card-body">
-                                <h5 className="card-title">TESTIMONIOS 3</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title">TESTIMONIOS 4</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
-                </div>                           
-            </div>
+            <aside class="blog" style={blogStyle} >
+    <h2>Blog</h2>
+    <div class="post">
+        <h3>Titulo del Post 1</h3>
+        <p>Contenido del Post 1...</p>
+    </div>
+    <div class="post">
+        <h3>Titulo del Post 2</h3>
+        <p>Contenido del Post 2...</p>
+    </div>
+    {/* <!-- Agrega más posts según sea necesario --> */}
+</aside>
+
         </div>         
     );
 };

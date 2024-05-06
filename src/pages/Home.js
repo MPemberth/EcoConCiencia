@@ -4,6 +4,8 @@ import Nav from '../components/Nav';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
 import Aside from '../components/Aside';
+import Section from '../components/Section';
+
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
       
       {<Header/>}
       {<Main/>}
+      {<Section/>}
       {<Aside/>}
       {<Footer/> }
       {/* <Header />
