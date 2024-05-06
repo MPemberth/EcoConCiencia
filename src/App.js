@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import AboutUs from './pages/AboutUs';
 import Nav from './components/Nav';
+import Aside from './components/Aside';
+import Footer from './components/Footer';
 
 const App = () => {
   return (

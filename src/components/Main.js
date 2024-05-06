@@ -4,8 +4,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Main = () => {
     return (
-      <div className="container">
-            <Carousel>
+    <div className="container">
+        <Carousel>
             <div>
                 <img src="https://images.ctfassets.net/cfexf643femz/6GVjMgemv42lpFbXFEMN6F/628157e1f08efeab4317e96d91d779cb/Fotos_La_haus__19___1_.jpg" alt="Medellín" />
             </div>
@@ -15,7 +15,7 @@ const Main = () => {
             <div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Medellin.jpg/1200px-Medellin.jpg" alt="Third slide" />
             </div>
-            </Carousel>
+        </Carousel>
             <div className='main'>
                 <div className='services'>
                     <div className="row">
@@ -34,48 +34,14 @@ const Main = () => {
                                 <div className="card-body text-primary">
                                     <h5 className="card-title">Primary card title</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    {/* <div className='testimonials'>
-                        <div className="col-md-3">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">TESTIMONIOS</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">TESTIMONIOS</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">TESTIMONIOS</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">TESTIMONIOS</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                    </div>
+                    {/*  */}
                 </div>
             </div>
-      </div>
+    </div>
     );
-  };
-  
-
-
+};
 export default Main;
