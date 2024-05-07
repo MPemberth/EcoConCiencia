@@ -1,11 +1,15 @@
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Services from './Services';
 import AsideRight from './AsideRight';
-import imgOne from '../img/img8.jpg';
-import imgTwo from '../img/img8.jpg';
-import imgThree from '../img/img3.jpg';
-import imgFour from '../img/img4.jpg';
+import imgOne from '../img/imgOne.png';
+import imgTwo from '../img/imgTwo.png';
+import imgThree from '../img/imgThree.png';
+import imgFour from '../img/imgFour.png';
+import imgFive from '../img/imgFive.png';
+import imgSix from '../img/imgSix.png';
+import imgSeven from '../img/imgSeven.png';
+import imgEight from '../img/imgNine.png';
 import '../css/main.css'
 
 const Main = () => {
@@ -22,10 +26,14 @@ const Main = () => {
                         <img src={imgTwo} className="d-block w-100 img-fluid" alt="Medellín" />
                         <div className="carousel-caption d-none d-md-block"></div>
                     </div>
-                    {/* <div className="carousel-item">
+                    <div className="carousel-item">
                         <img src={imgThree} className="d-block w-100 img-fluid" alt="Medellín" />
                         <div className="carousel-caption d-none d-md-block"></div>
-                    </div> */}
+                    </div>
+                    <div className="carousel-item">
+                        <img src={imgFour} className="d-block w-100 img-fluid" alt="Medellín" />
+                        <div className="carousel-caption d-none d-md-block"></div>
+                    </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,18 +101,42 @@ const Main = () => {
             </div>            
         </div>
         <hr/>
+        <div className='secondBanner'>
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={imgFive} className="d-block w-100 img-fluid" alt="Medellín" />
+                        <div className="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={imgSix} className="d-block w-100 img-fluid" alt="Medellín" />
+                        <div className="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={imgSeven} className="d-block w-100 img-fluid" alt="Medellín" />
+                        <div className="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={imgEight} className="d-block w-100 img-fluid" alt="Medellín" />
+                        <div className="carousel-caption d-none d-md-block"></div>
+                    </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Anterior</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <hr/>
 
 
 
-        
-    
-    
-    
-    </div>
-      
+    </div>      
     );
-  };
+};
   
-
-
 export default Main;
