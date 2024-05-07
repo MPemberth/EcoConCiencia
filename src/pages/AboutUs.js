@@ -1,8 +1,11 @@
-// AboutUs.js
 import React from 'react';
 
 const AboutUs = () => {
-  // Contenido del componente AboutUs
+  <div className="container-fluid">
+    <p>Sobre nosotros</p>
+      
+  </div>
+
 };
 
-export default AboutUs; // Asegúrate de exportar correctamente el componente
+export default AboutUs; 
