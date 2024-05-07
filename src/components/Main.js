@@ -2,6 +2,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Services from './Services';
 import AsideRight from './AsideRight';
+import Blog from './Blog'
 import imgOne from '../img/imgOne.png';
 import imgTwo from '../img/imgTwo.png';
 import imgThree from '../img/imgThree.png';
@@ -132,7 +133,7 @@ const Main = () => {
             </div>
         </div>
         <hr/>
-
+        
 
 
     </div>      

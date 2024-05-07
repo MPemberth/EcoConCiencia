@@ -36,11 +36,9 @@
 }
 
 .mainContent{
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: #F5EFE6; */
 }
 
 .services card {
@@ -70,3 +68,16 @@
 .testimonials text{
     text-align: justify;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.form button{
+    background-color: #1A4D2E;
+    color: #E8DFCA;
+}
+
