@@ -5,6 +5,7 @@ import Nav from '../components/Nav';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
 import AsideRight from '../components/AsideRight';
+import Dashboard from './Dashboard';
 
 const Home = () => {
   return (
@@ -13,12 +14,11 @@ const Home = () => {
       {<Header/>}
       <hr/>
       {<Main/>}
+      {<Dashboard/>}
       
       
-      {/* <Header />
-      <Nav />
-      <Main /> 
-      <Footer /> */}
+      
+      
     </div>
   );
 };
