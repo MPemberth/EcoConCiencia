@@ -21,7 +21,8 @@ const Footer = ({ Routers }) => {
                 <img src={linked} className="social-icon"  alt="iconolinked"/>
                 <a href="#" class="social-icon">linkedin<i class="linkedin"></i></a>
             </div>
-        <div class="contactofooter"><p><a href="#" class="social-icon">Contactanos</a></p></div>    
+        <div class="contactofooter"><p><a href="#" class="social-icon">Contactanos</a></p></div>  
+        <div class="terminosofooter"><p><a href="#" class="social-icon">Terminos y condiciones</a></p></div>   
         </div>
     );
 };
