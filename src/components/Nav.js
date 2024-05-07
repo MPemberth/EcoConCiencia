@@ -21,7 +21,9 @@ const Nav = ({ routes }) => {
           </ul>
         </div>
       </div>
+      <hr/>
     </nav>
+    
   );
 };
 
