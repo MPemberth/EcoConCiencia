@@ -48,6 +48,7 @@
 }
 
 .testimonials{
+    padding: 7px;
     border-radius: 15px;
     border-top: 1px;
     border: 1px solid #1A4D2E;
@@ -58,9 +59,14 @@
     width: 60px;
     border-radius: 50%;
     float: left;
+    margin-right: 10px;
 }
 
 .testimonials h4 {
     padding: 5px;
     text-align: center;
+}
+
+.testimonials text{
+    text-align: justify;
 }

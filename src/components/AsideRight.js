@@ -10,21 +10,17 @@ const AsideRight = () => {
               <div className="row">
                 <h4>Opiniones</h4>
                 <hr/>
-                  <div className="col-md-3 mt-1">
+                  <div className="col-md-12 mt-1">
                       <img src={avatarOne} className="card-img-top"  alt="Foto del testimonio" />
-                    </div>
-                    <div className="col-md-8 mt-1">
-                        <div className="card-body">
+                      <div className="card-body">
                           <h5 className="card-title">María</h5>
                           <p>Residente en Medellín</p>
                           <p className="card-text" > <small>"¡Qué gran herramienta! Gracias a este sitio web, puedo ver los niveles de contaminación en mi área y tomar medidas para proteger la salud de mi familia. La visualización de datos es clara y fácil de entender."</small></p>
                         </div>
                     </div>  
                     <hr/>
-                  <div className="col-md-3 mt-1">
+                  <div className="col-md-12 mt-1">
                       <img src={avatarTwo} className="card-img-top" alt="Foto del testimonio" />
-                    </div>
-                    <div className="col-md-8 mt-1">
                         <div className="card-body">
                           <h5 className="card-title">Carlos</h5>
                           <p>Urbanista</p>
@@ -32,10 +28,8 @@ const AsideRight = () => {
                         </div>
                     </div>  
                     <hr/>
-                  <div className="col-md-3 mt-1">
+                  <div className="col-md-12 mt-1">
                       <img src={avatarThree} className="card-img-top" alt="Foto del testimonio" />
-                    </div>
-                    <div className="col-md-8 mt-1">
                         <div className="card-body">
                           <h5 className="card-title">Luisa</h5>
                           <p>Estudiante de Biología</p>
