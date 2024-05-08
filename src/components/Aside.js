@@ -1,13 +1,6 @@
 import React from 'react';
 import '../css/aside.css';
 
-const blogStyle = {
-    width: '30%',
-    height: 'auto',
-    margin: '0',
-    float: 'left'
-};
-
 const Aside = ({ Routers }) => {
     return (
     <div class="Aside">
@@ -22,9 +15,16 @@ const Aside = ({ Routers }) => {
                     <hr></hr>
                 </div>
                 <div class="post">
-                    <h5>Conoce informes y estadisticas del medio ambiente de nuestra ciudad a traves de la web www.medellincomovamos.org</h5>
+                    <h5>Conoce informes y estadisticas del medio ambiente de nuestra ciudad.</h5>
                     <p>En esta pagina de creada con el apoyo de grandes organizaciones de nuestra ciudad y el país recopilan data direntes aspectos de nuestra bella ciudad entre sus temas de importancia tienen un area enfocada en reportes de nuestro Medio Ambinete.
                     <a href='https://www.medellincomovamos.org/sectores/medio-ambiente'>  Seguir Leyendo</a>   
+                    </p>
+                    <hr></hr>
+                </div>
+                <div class="post">
+                    <h5> El SIGAM (Sistema de Gestión Ambiental Municipal) tiene información valiosa para tí.</h5>
+                    <p>Como propuesta organizacional, el Sigam identifica los elementos y componentes de la organización municipal y de la gestión pública, y los ordena bajo una mirada sistémica, precisamente para lograr el adecuado funcionamiento del sistema municipal.
+                    <a href='https://www.medellin.gov.co/es/secretaria-medio-ambiente/sistema-de-gestion-ambiental-de-medellin/" '>  Seguir Leyendo</a>   
                     </p>
                     <hr></hr>
                 </div>
