@@ -9,6 +9,7 @@ import Dashboard from './Dashboard';
 import Aside from '../components/Aside';
 import Section from '../components/Section';
 
+
 const Home = () => {
   return (
     <div>
@@ -20,8 +21,6 @@ const Home = () => {
       {<Aside/>}
       {<Footer/>}
       {/* {<Dashboard/>} */}
-      
-      
       
       
     </div>
