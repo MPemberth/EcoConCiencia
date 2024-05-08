@@ -20,7 +20,7 @@ const Footer = () => {
             <img src={instagram} className="social-icon" alt="iconoinstagram" /></a>
             <a href="https://www.linkedin.com/tuperfil" target="_blank" rel="noopener noreferrer">
             <img src={linked} className="social-icon" alt="iconolinked" /></a>
-            </div>
+        </div>
             <div class="contactofooter"><p><a href="#" class="social-icon">¡Contáctanos!</a></p></div>  
             <div class="terminosofooter"><p><a href="#" class="social-icon">Términos y condiciones.</a></p></div>
             <p>&copy; 2024 EcoConciencia. Todos los derechos reservados.</p>   
