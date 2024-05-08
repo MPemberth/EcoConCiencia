@@ -14,7 +14,7 @@ import imgEight from '../img/imgNine.png';
 import '../css/main.css'
 
 const Main = () => {
-  return (
+return (
     <div className="container-fluid">
         <div className='firtsBanner'>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -139,5 +139,5 @@ const Main = () => {
     </div>      
     );
 };
-  
+
 export default Main;
