@@ -12,17 +12,17 @@ const Footer = ({ Routers }) => {
         <div class="footer">
             <p>&copy; 2024 EcoConciencia. Todos los derechos reservados.</p>
             <div class="social-icons">
-                <img src={facebook} className="social-icon"  alt="iconofacebook" />
-                <a href="#" class="social-icon">Facebook <i class="facebook"></i></a>
-                <img src={twitter} className="social-icon"  alt="iconotwitter"/>
-                <a href="#" class="social-icon">Twitter <i class="twitter"></i></a>
-                <img src={instagram} className="social-icon"  alt="iconoinstagram"/>
-                <a href="#" class="social-icon">Instagram <i class="instagram"></i></a>
-                <img src={linked} className="social-icon"  alt="iconolinked"/>
-                <a href="#" class="social-icon">linkedin<i class="linkedin"></i></a>
-            </div>
-        <div class="contactofooter"><p><a href="#" class="social-icon">Contactanos</a></p></div>  
-        <div class="terminosofooter"><p><a href="#" class="social-icon">Terminos y condiciones</a></p></div>   
+            <a href="https://www.facebook.com/tupagina" target="_blank" rel="noopener noreferrer">
+            <img src={facebook} className="social-icon" alt="iconofacebook" /></a>
+            <a href="https://twitter.com/tuperfil" target="_blank" rel="noopener noreferrer">
+            <img src={twitter} className="social-icon" alt="iconotwitter" /></a>
+            <a href="https://www.instagram.com/tucuenta" target="_blank" rel="noopener noreferrer">
+            <img src={instagram} className="social-icon" alt="iconoinstagram" /></a>
+            <a href="https://www.linkedin.com/tuperfil" target="_blank" rel="noopener noreferrer">
+            <img src={linked} className="social-icon" alt="iconolinked" /></a>
+        </div>
+        <div class="contactofooter"><p><a href="#" >Contactanos</a></p></div>  
+        <div class="terminosfooter"><p><a href="#" >Terminos y Condiciones</a></p></div>   
         </div>
     );
 };
