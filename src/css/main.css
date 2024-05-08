@@ -41,10 +41,6 @@
     flex-wrap: wrap;
 }
 
-.services card {
-    background-color: #E8DFCA;
-}
-
 .testimonials{
     padding: 7px;
     border-radius: 15px;
@@ -81,3 +77,30 @@
     color: #E8DFCA;
 }
 
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #4f6f5262;
+}
+
+.blog p{
+    text-align: justify;
+}
+
+.blog h3{
+    text-align: center;
+}
+
+.blog a{
+    text-decoration: none;
+    color: #1A4D2E;
+    font-weight: bold;
+}

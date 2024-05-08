@@ -7,10 +7,10 @@ import linked from "../img/linkedin.svg"
 import '../css/footer.css';
 
 
-const Footer = ({ Routers }) => {
+const Footer = () => {
     return (
         <div class="footer">
-            <p>&copy; 2024 EcoConciencia. Todos los derechos reservados.</p>
+            
             <div class="social-icons">
             <a href="https://www.facebook.com/tupagina" target="_blank" rel="noopener noreferrer">
             <img src={facebook} className="social-icon" alt="iconofacebook" /></a>
@@ -20,9 +20,11 @@ const Footer = ({ Routers }) => {
             <img src={instagram} className="social-icon" alt="iconoinstagram" /></a>
             <a href="https://www.linkedin.com/tuperfil" target="_blank" rel="noopener noreferrer">
             <img src={linked} className="social-icon" alt="iconolinked" /></a>
-        </div>
-        <div class="contactofooter"><p><a href="#" >Contactanos</a></p></div>  
-        <div class="terminosfooter"><p><a href="#" >Terminos y Condiciones</a></p></div>   
+            </div>
+            <div class="contactofooter"><p><a href="#" class="social-icon">¡Contáctanos!</a></p></div>  
+            <div class="terminosofooter"><p><a href="#" class="social-icon">Términos y condiciones.</a></p></div>
+            <p>&copy; 2024 EcoConciencia. Todos los derechos reservados.</p>   
+
         </div>
     );
 };
