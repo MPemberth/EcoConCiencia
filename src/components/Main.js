@@ -12,6 +12,8 @@ import imgSix from '../img/imgSix.png';
 import imgSeven from '../img/imgSeven.png';
 import imgEight from '../img/imgNine.png';
 import '../css/main.css'
+import Aside from './Aside';
+import Section from './Section';
 
 const Main = () => {
 return (
@@ -133,7 +135,18 @@ return (
             </div>
         </div>
         <hr/>
-        
+        <div className='secondContent'>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-4">
+                        <Aside />
+                    </div>
+                    <div className="col-md-8">
+                        <Section />
+                    </div>
+                </div>
+            </div>            
+        </div>
 
 
     </div>      
