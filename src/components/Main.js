@@ -2,6 +2,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Services from './Services';
 import AsideRight from './AsideRight';
+import Dashboard from '../pages/Dashboard';
 import imgOne from '../img/imgOne.png';
 import imgTwo from '../img/imgTwo.png';
 import imgThree from '../img/imgThree.png';
@@ -122,11 +123,11 @@ const Main = () => {
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-prev-icon" aria-hidden="false"></span>
                     <span className="visually-hidden">Anterior</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-next-icon" aria-hidden="false"></span>
                     <span className="visually-hidden">Siguiente</span>
                 </button>
             </div>
