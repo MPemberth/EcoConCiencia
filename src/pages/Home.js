@@ -14,7 +14,7 @@ const Home = () => {
       {<Header/>}
       <hr/>
       {<Main/>}
-      {<Dashboard/>}
+      
       
       
       

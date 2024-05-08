@@ -1,11 +1,14 @@
 import React from 'react';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const AboutUs = () => {
-  <div className="container-fluid">
-    <p>Sobre nosotros</p>
-      
-  </div>
-
+  return (
+    <div>
+      <h2>Dashboard</h2>
+      <p>Este es el contenido del dashboard, imágenes, servicios y datos.</p>
+      <p>Lorem100 </p>
+    </div>
+  );
 };
 
-export default AboutUs; 
+export default AboutUs;
