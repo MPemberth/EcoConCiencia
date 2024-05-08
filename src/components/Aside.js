@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/aside.css';
 
-const Aside = ({ Routers }) => {
+const Aside = () => {
     return (
     <div class="Aside">
         <aside class="blog" >

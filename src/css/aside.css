@@ -1,5 +1,6 @@
 .Aside {
-    width: 45%;
+    display: flex;
+    width: 40%;
     float: left;
     padding: 7px;
     margin-left: 12px;
